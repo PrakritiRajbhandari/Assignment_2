@@ -1,0 +1,72 @@
+/* nav bar css*/
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #000000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000000;
+}
+
+.navbar-light .navbar-brand {
+  color: #fff;
+  background: #009ca7;
+  width: 200px;
+  font-weight: 500;
+  font-size: 24px;
+  font-family: sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: grey;
+}
+
+a {
+  font-family: sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #009ca7;
+}
+
+.menu-bar {
+  background-color: #f8f9fa !important;
+}
+/* main css*/
+main {
+  background-color: #e6e6e6;
+}
+
+h2 {
+  color: #009ca7;
+}
+
+p {
+  font-family: sans-serif;
+}
+.card {
+  border-radius: 0;
+}
+
+.cards_img {
+  padding: 1.25rem;
+  width: 300px;
+  height: auto;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+/*footer */
+.blue_line {
+  background-color: #009ca7;
+  height: 5px;
+}
+.copyright {
+  background-color: grey;
+  color: #fff;
+}
