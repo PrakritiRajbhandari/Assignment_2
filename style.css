@@ -8,6 +8,11 @@
   color: #000000;
 }
 
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+  color: white;
+}
+
 .navbar-light .navbar-brand {
   color: #fff;
   background: #009ca7;
@@ -55,8 +60,9 @@ p {
 }
 
 .contact {
-  width: 500px;
+  width: 670px;
 }
+
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -104,4 +110,20 @@ label {
 .copyright {
   background-color: grey;
   color: #fff;
+}
+
+/*media querie*/
+
+@media (max-width: 425px) {
+  .cards_img {
+    width: 320px;
+    height: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .cards_img {
+    width: 215px;
+    height: auto;
+  }
 }
