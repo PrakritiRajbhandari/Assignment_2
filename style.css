@@ -54,12 +54,47 @@ p {
   height: auto;
 }
 
+.contact {
+  width: 500px;
+}
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
   border-top: 2px solid rgba(0, 0, 0, 0.1);
 }
+/*form*/
+input.input1 {
+  height: 50px;
+  border-radius: 25px;
+  padding: 0 30px;
+}
+.input1 {
+  display: block;
+  width: 100%;
+  background: #e6e6e663;
+  font-family: proxima-nova, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666666;
+}
+
+textarea.form-control {
+  height: 250px;
+}
+
+.btn-submit {
+  color: #fff;
+  background-color: #009ca7;
+  border-color: #009ca7;
+  font-family: sans-serif;
+}
+
+label {
+  font-family: sans-serif;
+}
+
+/*portfolio css*/
 
 /*footer */
 .blue_line {
