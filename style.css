@@ -112,14 +112,7 @@ label {
   color: #fff;
 }
 
-/*media querie*/
-
-@media (max-width: 425px) {
-  .cards_img {
-    width: 320px;
-    height: auto;
-  }
-}
+/*media queries*/
 
 @media (max-width: 320px) {
   .cards_img {
